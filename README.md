@@ -37,10 +37,10 @@ const developer = {
 <table>
 <tr>
 <td width="50%">
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=aliyanamjadkhan&show_icons=true&hide_border=true&bg_color=05060a&title_color=8A2BE2&icon_color=2E9EF7&text_color=dbe4f3&border_radius=14"/>
+<img width="100%" src="https://github-stats-extended.vercel.app/api?username=aliyanamjadkhan&show_icons=true&hide_border=true&bg_color=05060a&title_color=8A2BE2&icon_color=2E9EF7&text_color=dbe4f3&border_radius=14"/>
 </td>
 <td width="50%">
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aliyanamjadkhan&layout=compact&hide_border=true&bg_color=05060a&title_color=8A2BE2&text_color=dbe4f3&border_radius=14"/>
+<img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=aliyanamjadkhan&layout=compact&hide_border=true&bg_color=05060a&title_color=8A2BE2&text_color=dbe4f3&border_radius=14"/>
 </td>
 </tr>
 </table>
