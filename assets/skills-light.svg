@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#155EEF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="bgGrad2L" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbfcff"/>
+      <stop offset="100%" stop-color="#f0eefd"/>
+    </linearGradient>
+    <clipPath id="frame2L"><rect width="1000" height="260" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame2L)">
+    <rect width="1000" height="260" fill="url(#bgGrad2L)"/>
+
+    <text x="40" y="46" font-family="Consolas, monospace" font-size="15" fill="#6b76a0" letter-spacing="2">FOCUS AREAS</text>
+
+    <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#0f1222">
+      <text x="40" y="88">Frontend Engineering</text>
+      <text x="40" y="126">Backend &amp; APIs</text>
+      <text x="40" y="164">Mobile with Flutter</text>
+      <text x="40" y="202">MERN Stack (currently learning)</text>
+    </g>
+
+    <g>
+      <rect x="330" y="72" width="600" height="10" rx="5" fill="#dfe3f5"/>
+      <rect x="330" y="110" width="600" height="10" rx="5" fill="#dfe3f5"/>
+      <rect x="330" y="148" width="600" height="10" rx="5" fill="#dfe3f5"/>
+      <rect x="330" y="186" width="600" height="10" rx="5" fill="#dfe3f5"/>
+
+      <rect x="330" y="72" height="10" rx="5" fill="url(#barGradL)" width="0">
+        <animate attributeName="width" values="0;522;522" keyTimes="0;0.5;1" dur="3.4s" begin="0.1s" fill="freeze"/>
+      </rect>
+      <rect x="330" y="110" height="10" rx="5" fill="url(#barGradL)" width="0">
+        <animate attributeName="width" values="0;486;486" keyTimes="0;0.5;1" dur="3.4s" begin="0.35s" fill="freeze"/>
+      </rect>
+      <rect x="330" y="148" height="10" rx="5" fill="url(#barGradL)" width="0">
+        <animate attributeName="width" values="0;396;396" keyTimes="0;0.5;1" dur="3.4s" begin="0.6s" fill="freeze"/>
+      </rect>
+      <rect x="330" y="186" height="10" rx="5" fill="url(#barGradL)" width="0">
+        <animate attributeName="width" values="0;312;312" keyTimes="0;0.5;1" dur="3.4s" begin="0.85s" fill="freeze"/>
+      </rect>
+
+      <circle cy="77" r="7" fill="#0f1222">
+        <animate attributeName="cx" values="330;852;852" keyTimes="0;0.5;1" dur="3.4s" begin="0.1s" fill="freeze"/>
+      </circle>
+      <circle cy="115" r="7" fill="#0f1222">
+        <animate attributeName="cx" values="330;816;816" keyTimes="0;0.5;1" dur="3.4s" begin="0.35s" fill="freeze"/>
+      </circle>
+      <circle cy="153" r="7" fill="#0f1222">
+        <animate attributeName="cx" values="330;726;726" keyTimes="0;0.5;1" dur="3.4s" begin="0.6s" fill="freeze"/>
+      </circle>
+      <circle cy="191" r="7" fill="#0f1222">
+        <animate attributeName="cx" values="330;642;642" keyTimes="0;0.5;1" dur="3.4s" begin="0.85s" fill="freeze"/>
+      </circle>
+    </g>
+
+    <g font-family="Consolas, monospace" font-size="13" fill="#0D9488">
+      <text x="40" y="240">
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.06;0.94;1" dur="16s" repeatCount="indefinite"/>
+        react . node . python . flask . flutter . mongodb . git
+      </text>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="999" height="259" rx="14" fill="none" stroke="#dfe3f5" stroke-width="1"/>
+</svg>
