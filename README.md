@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<sub>currently &nbsp;&#8594;&nbsp; learning how to manage and push real projects with Git &amp; GitHub</sub>
+<sub>currently &nbsp;&#8594;&nbsp; Welcome to my world of code, creativity, and continuous learning. &amp; GitHub</sub>
 
 </div>
 
@@ -25,7 +25,7 @@ const developer = {
   stack: {
     languages: ["JavaScript", "Python", "HTML", "CSS"],
     frameworks: ["React", "Node.js", "Flask", "Flutter"],
-    learning: "MERN Stack",
+    into: "MERN Stack",
   },
   philosophy: "ship it, then make it better",
   find_me: {
