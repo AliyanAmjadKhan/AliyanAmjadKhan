@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<sub> Welcome to my world of code, creativity, and continuous learning. &amp; GitHub</sub>
+<sub> Welcome to my world of code, creativity, and continuous learning.</sub>
 
 </div>
 
