@@ -1,6 +1,18 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%"/>
+<picture>
+  <source srcset="assets/banner.svg" media="(prefers-color-scheme: dark)"/>
+  <source srcset="assets/banner-light.svg" media="(prefers-color-scheme: light)"/>
+  <img src="assets/banner.svg" width="100%"/>
+</picture>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<sub>currently &nbsp;&#8594;&nbsp; learning how to manage and push real projects with Git &amp; GitHub</sub>
 
 </div>
 
@@ -27,7 +39,11 @@ const developer = {
 
 <div align="center">
 
-<img src="assets/skills.svg" width="100%"/>
+<picture>
+  <source srcset="assets/skills.svg" media="(prefers-color-scheme: dark)"/>
+  <source srcset="assets/skills-light.svg" media="(prefers-color-scheme: light)"/>
+  <img src="assets/skills.svg" width="100%"/>
+</picture>
 
 </div>
 
@@ -53,10 +69,22 @@ const developer = {
 
 <div align="center">
 
+<img src="https://github-profile-trophy.vercel.app/?username=aliyanamjadkhan&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
 <a href="https://aliyanamjadkhan.netlify.app">portfolio</a> &nbsp;&#183;&nbsp; <a href="https://www.linkedin.com/in/aliyanamjadkhan">linkedin</a>
 
 <br><br>
 
-<img src="assets/footer.svg" width="100%"/>
+<picture>
+  <source srcset="assets/footer.svg" media="(prefers-color-scheme: dark)"/>
+  <source srcset="assets/footer-light.svg" media="(prefers-color-scheme: light)"/>
+  <img src="assets/footer.svg" width="100%"/>
+</picture>
 
 </div>
