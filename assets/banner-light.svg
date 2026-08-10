@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbfcff">
+        <animate attributeName="stop-color" values="#fbfcff;#f2f5ff;#fbfcff" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#eef1fc">
+        <animate attributeName="stop-color" values="#eef1fc;#e6eafc;#eef1fc" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#f6f2fd">
+        <animate attributeName="stop-color" values="#f6f2fd;#efe8fb;#f6f2fd" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="orbBlueL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#155EEF" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#155EEF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbPurpleL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softL" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <pattern id="gridL" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#dfe3f5" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="frameL">
+      <rect x="0" y="0" width="1000" height="300" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frameL)">
+    <rect width="1000" height="300" fill="url(#bgGradL)"/>
+
+    <g opacity="0.55">
+      <rect width="1000" height="300" fill="url(#gridL)">
+        <animateTransform attributeName="transform" type="translate" values="0,0;42,42;0,0" dur="14s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <circle cx="120" cy="60" r="130" fill="url(#orbBlueL)" filter="url(#softL)">
+      <animateMotion path="M0,0 C 40,30 60,-30 10,10 C -30,50 20,60 0,0" dur="16s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="240" r="150" fill="url(#orbPurpleL)" filter="url(#softL)">
+      <animateMotion path="M0,0 C -50,-20 -20,40 -60,0 C -20,-40 30,-30 0,0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="50" r="70" fill="url(#orbBlueL)" filter="url(#softL)" opacity="0.7">
+      <animateMotion path="M0,0 C 20,20 -30,10 -10,-20 C 10,-40 30,0 0,0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+      <text x="60" y="140" font-size="58" font-weight="700" fill="#0f1222" letter-spacing="1">
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.05;0.35;1" dur="9s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,26;0,26;0,0;0,0" keyTimes="0;0.05;0.35;1" dur="9s" repeatCount="indefinite"/>
+        Aliyan Amjad Khan
+      </text>
+
+      <text x="61" y="178" font-size="21" fill="#47517a" letter-spacing="3">
+        <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.18;0.45;1" dur="9s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,14;0,14;0,0;0,0" keyTimes="0;0.18;0.45;1" dur="9s" repeatCount="indefinite"/>
+        FULL STACK DEVELOPER  /  SOFTWARE ENGINEER
+      </text>
+    </g>
+
+    <rect x="61" y="196" width="0" height="3" fill="#155EEF">
+      <animate attributeName="width" values="0;0;300;300" keyTimes="0;0.35;0.6;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#155EEF;#7C3AED;#155EEF" dur="9s" repeatCount="indefinite"/>
+    </rect>
+
+    <g font-family="'Cascadia Code', 'Fira Code', Consolas, monospace" font-size="17" fill="#0D9488">
+      <text x="61" y="240" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.30;0.33;1" dur="9s" repeatCount="indefinite"/>
+        building products end to end
+      </text>
+      <text x="61" y="240" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.33;0.36;0.40;0.63;0.66;1" dur="9s" repeatCount="indefinite"/>
+        shipping with node, react &amp; python
+      </text>
+      <text x="61" y="240" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;0.66;0.69;0.73;0.97;1" dur="9s" repeatCount="indefinite"/>
+        currently levelling up the mern stack
+      </text>
+      <rect x="0" y="226" width="10" height="18" fill="#0D9488">
+        <animate attributeName="x" values="440;440" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0;1;0;1;0;1;0" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g stroke="#155EEF" stroke-width="1.4" fill="none" opacity="0.65">
+      <path d="M 700 40 L 760 40 L 760 90 L 820 90">
+        <animate attributeName="stroke-dasharray" values="0,300;300,0" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <circle cx="700" cy="40" r="3.5" fill="#155EEF" stroke="none"/>
+      <circle cx="820" cy="90" r="3.5" fill="#7C3AED" stroke="none"/>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="999" height="299" rx="14" fill="none" stroke="#dfe3f5" stroke-width="1"/>
+</svg>
