@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<sub> Welcome to my world of code, creativity, and continuous learning.</sub>
+<sub>currently &nbsp;&#8594;&nbsp; learning how to manage and push real projects with Git &amp; GitHub</sub>
 
 </div>
 
@@ -25,7 +25,7 @@ const developer = {
   stack: {
     languages: ["JavaScript", "Python", "HTML", "CSS"],
     frameworks: ["React", "Node.js", "Flask", "Flutter"],
-    into: "MERN Stack",
+    learning: "MERN Stack",
   },
   philosophy: "ship it, then make it better",
   find_me: {
@@ -62,14 +62,6 @@ const developer = {
 </table>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=aliyanamjadkhan&hide_border=true&bg_color=05060a&color=dbe4f3&line=2E9EF7&point=8A2BE2&area=true&area_color=2E9EF7"/>
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=aliyanamjadkhan&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1"/>
 
 </div>
 
